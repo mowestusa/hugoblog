@@ -1,0 +1,30 @@
+Name = "Discover FOSS"
+
+# Supports markdown
+About = "Discover Free and Open Source Software"
+
+Email = ""
+
+# Add the filename with file extension.
+Resume = ""
+
+# Sets the number of posts to display on the front page
+PostLimit = 4
+
+GoatCounterCode = ""
+
+[[profiles]]
+name = "GitHub"
+url = "https://github.com/mowestusa"
+
+# [[profiles]]
+# name = "Twitter"
+# url = ""
+# 
+# [[profiles]]
+# name = "Goodreads"
+# url = ""
+# 
+# [[profiles]]
+# name = "LinkedIn"
+# url = ""

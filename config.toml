@@ -1,0 +1,4 @@
+baseURL = "https://mowestusa.github.io/"
+languageCode = "en-us"
+title = "Discover FOSS"
+theme = "notepadium"
