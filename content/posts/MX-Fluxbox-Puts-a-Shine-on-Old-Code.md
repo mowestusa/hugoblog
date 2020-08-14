@@ -11,10 +11,6 @@ tags:
 
 ![MXFB Article Header](/mxfb-shine-header.png)
 
-# MX-Fluxbox Puts a Shine on Old Code
-
-by Steve (mowest)
-
 Shame on me for taking this long to try MX Linux. My teenage son has been a code contributor to MX since before their October 2019 release of MX-19. He loved MX from his first install, but I dismissed it for my use. I have used distros based on Debian Stable and longed for updated packages. Honestly from a distance, MX appeared to be an eclectic mix of applications from different frameworks on top of a stable (dare I say boring) base of Debian and XFCE. Fedora Workstation gave me the new and shinny of Gnome 3 with their 6 month fast paced release cycle. Ubuntu Mate assembled a desktop and app selection that fits together like a beautifully tailored suit. Because I had never taken the time to run MX-Linux on my personal hardware, I just didn’t get it.
 
 Our family’s summer vacation, a week away from home, was around the corner. I planned to bring an old laptop with Linux, but its SSD needed a fresh install. When I asked my son for suggestions of distros I should try out for a week, he suggested MX-19.2 which released at the beginning of June. At first I thought of dismissing his suggestion, but then I remembered. MX-Fluxbox had been released as a supported desktop. When I first got into Linux in the early 2000’s fluxbox quickly became my window manger of choice as I often ran older hardware that didn’t handle the heavy desktop environments as well. Longing for nostalgia and knowing that after this one week away I could wipe it and go back to a more familiar distro, I took the plunge.
