@@ -2,6 +2,11 @@
 title: "MX Fluxbox Puts a Shine on Old Code"
 date: 2020-08-09T22:38:24-04:00
 draft: false
+categories:
+- Articles
+tags:
+- MX-Linux
+- fluxbox
 ---
 
 ![MXFB Article Header](/mxfb-shine-header.png)
