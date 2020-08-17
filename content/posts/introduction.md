@@ -14,8 +14,8 @@ Welcome to Discover FOSS or "Discover Free and Open Source Software." I have enj
 
 Here are a few terms that I don't plan to explain in every post. You can find FOSS that will run on Windows 10, Mac OS, Android, IOS, and of course on top of a Linux distribution. I will primarily write posts about using FOSS in a Linux distribution. Currently I run the following distributions with their links below. If you want to know more about those individual distributions I would head over to their websites.
 
-	* [MX-Linux](https://mxlinux.org/)
-	* [Fedora](https://getfedora.org/)
-	* [Ubuntu Mate](https://ubuntu-mate.org/)
+* [MX-Linux](https://mxlinux.org/)
+* [Fedora](https://getfedora.org/)
+* [Ubuntu Mate](https://ubuntu-mate.org/)
 
 When you see a reference to MX, I'm referring to the MX-Linux distribution. When I make references to the Mate desktop environment, I'm usually referring to my experience with it when using Ubuntu Mate. When I make references to Gnome that comes from my experience using it on Fedora.
