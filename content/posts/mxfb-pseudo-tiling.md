@@ -1,7 +1,7 @@
 ---
 title: "MX-Fluxbox Pseudo Tiling"
 date: 2020-08-18T18:24:44-04:00
-draft: true
+draft: false
 categories:
 - Tutorials
 tags:
@@ -34,7 +34,27 @@ Let's see how you can add pseudo tiling to fluxbox using most of the keyboard sh
 	# toggle active window: Maximized/ last size
 	Mod4 End :ToggleCmd {Maximize} {Restore}
 
-Thanks to the power of MacroCmd in the fluxbox keys file, you can resize the active window and move it anywhere with a keyboard shortcut. The first set resizes the window either to 50% wide and 100% high or 100% wide and 50% high. The command then moves the window either to the left, right, top, or bottom of the screen. The second set resizes the windows to a quarter of the size of the screen and moves them into one of the four corners. I like the final keyboard shortcut which quickly maximizes the window to fill the whole screen. For those who have used Ubuntu Mate's pseudo tiling, you will notice that two of the keyboard shortcuts are different. In Ubuntu Mate the keyboard shortcuts that enable you to put a quarter sized window into the lower corners use the key combinations: "Shift Mod4 Left" and "Shift Mod4 Right." Although, fluxbox allows the use of "Shift" as a modifier key in keyboard shortcuts, there seems to be a bug in fluxbox that prevents "Shift" from working when it is paired with arrow keys. So an easy fix was to use the "Control" key as a modifier key instead.
+Thanks to the power of MacroCmd in the fluxbox keys file, you can resize the active window and move it anywhere with a keyboard shortcut. The first set resizes the window either to 50% wide and 100% high or 100% wide and 50% high. The command then moves the window either to the left, right, top, or bottom of the screen. The second set resizes the windows to a quarter of the size of the screen and moves them into one of the four corners. I like the final keyboard shortcut which quickly maximizes the window to fill the whole screen.
+
+*For those who have used Ubuntu Mate's pseudo tiling, you will notice that two of the keyboard shortcuts are different. In Ubuntu Mate the keyboard shortcuts that enable you to put a quarter sized window into the lower corners use the key combinations: "Shift Alt Mod4 Left" and "Shift Alt Mod4 Right." Although, fluxbox allows the use of "Shift" as a modifier key in keyboard shortcuts, there seems to be a bug in fluxbox that prevents "Shift" from working when it is paired with arrow keys. So an easy fix was to use the "Control" key as a modifier key instead.*
+
+### 08/25/2020 CORRECTION to the paragraph above
+
+> What I thought was a bug in fluxbox, was caused by a default setting found in MX-Linux in the `/etc/default/keyboard` file. In that file you will find the following line.
+
+	XKBOPTIONS="grp:alt_shift_toggle,terminate:ctrl_alt_bksp,grp_led:scroll"
+
+> Removing "grp:alt_shift_toggle" as shown below, will cause "Shift" to work as expected in your fluxbox keyboard shortcuts.
+
+	XKBOPTIONS="terminate:ctrl_alt_bksp,grp_led:scroll"
+	
+> Now I have my fluxbox 1/4 pseudo tiling shortcuts matched to Ubuntu Mate.
+
+	# Make active window 1/4 of the screen on the upper left
+	Alt Mod4 Left :MacroCmd {ResizeTo 50% 50%} {MoveTo 00 00 Up}
+	Alt Mod4 Right :MacroCmd {ResizeTo 50% 50%} {MoveTo 00 00 TopRight}
+	Alt Shift Mod4 Left :MacroCmd {ResizeTo 50% 50%} {MoveTo 00 00 BottomLeft}
+	Alt Shift Mod4 Right :MacroCmd {ResizeTo 50% 50%} {MoveTo 00 00 BottomRight}
 
 Personally, these keyboard shortcuts give me all of the tiling options that I need in my workflow. Of course, you can tweak these shortcuts to set up some of the default layouts used in a true tiling window manager. I wanted to share this fluxbox trick to show you all that fluxbox can do. If you would like other ideas for keyboard shortcuts that you can use to set up pseudo tiling, I would like to encourage you to head over to this [forum post](https://forum.mxlinux.org/viewtopic.php?f=143&t=55779) in the MX-Linux forum where I got the inspiration for my take on pseudo tiling.
 
