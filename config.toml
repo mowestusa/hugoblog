@@ -7,7 +7,7 @@ publishDir = "/home/mowest/gitprojects/mowestusa.github.io/"
 enableRobotsTXT = true
 
 [author]
-name = "Steve (mowest)"
+name = "Steve"
 
 [markup.highlight]
 codeFences = true
