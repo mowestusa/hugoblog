@@ -11,7 +11,7 @@ tags:
 - yadm
 ---
 
-![Wrangling dotfiles header graphic](/yadm-wrangle.png)
+![Wrangling dotfiles header graphic](/img/yadm-wrangle.png)
 
 Running a Linux distribution as your computer's operating system opens up a world of tweaks, configurations, and personalizations. FOSS offers choices in desktop environments, window managers, and favorite programs. All these choices enable you to set up a computer environment that serves your unique needs. What happens when you want to recreate that same experience on a 2nd or 3rd computer that is also running a Linux distribution? You can manually copy each of your configuration files from one computer to another using a folder connected to [syncthing](https://syncthing.net/) or a USB flash drive transferred with [sneakernet](https://en.wikipedia.org/wiki/Sneakernet). You can also manually edit for a second or third time the configuration files which contain your tweaks. These methods will frustrate you when you accidentally write over one of your configuration files with an earlier version that lacks your latest tweaks or when you go to use your favorite keyboard shortcut and realize that you haven't added that one to the system in front of you. I lived in this self imposed frustration until a few weeks ago.
 

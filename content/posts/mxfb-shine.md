@@ -9,7 +9,7 @@ tags:
 - fluxbox
 ---
 
-![MXFB Article Header](/mxfb-shine-header.png)
+![MXFB Article Header](/img/mxfb-shine-header.png)
 
 Shame on me for taking this long to try MX Linux. My teenage son has been a code contributor to MX since before their October 2019 release of MX-19. He loved MX from his first install, but I dismissed it for my use. I have used distros based on Debian Stable and longed for updated packages. Honestly from a distance, MX appeared to be an eclectic mix of applications from different frameworks on top of a stable (dare I say boring) base of Debian and XFCE. Fedora Workstation gave me the new and shinny of Gnome 3 with their 6 month fast paced release cycle. Ubuntu Mate assembled a desktop and app selection that fits together like a beautifully tailored suit. Because I had never taken the time to run MX-Linux on my personal hardware, I just didn’t get it.
 
@@ -17,7 +17,7 @@ Our family’s summer vacation, a week away from home, was around the corner. I 
 
 After my first week with MX-19.2 spending the majority of my time in MX-Fluxbox, this unique distro will keep its SSD. MX-Fluxbox put a shine on the fluxbox code which was last updated in February 2015. Because MX-Fluxbox runs on top of the install of MX’s XFCE4 edition, you have access to the MX goodness inside of fluxbox. You can use the MX Tools, community created utilities, for system administration tasks. You have the suite of pre-installed applications to get work done inside of fluxbox.
 
-![MX Tools](/mxfb-shine-mxtools.png)
+![MX Tools](/img/mxfb-shine-mxtools.png)
 
 You can’t fully appreciate MX without entering the welcoming and active community that they have nurtured. Spend time in their forum and you will discover that MX-Linux is a true labor of love. The community drives innovation. Community members roll up their sleeves to create the unique solutions that you only find in MX. The development team participates daily in the forum, and those interactions often lead them to implement the ideas of the community or mentor a community member to bring an idea into the next distro release. From my interactions with the community, I soon realized that MX application selection was not an eclectic mix, but the result of curation based upon community feedback. This leads to the inclusion of applications that offer features you may long for in the default installs of other distros. Nomacs, their choice for an image viewer, has simple editing features like cropping that I long to see in Gnome 3’s image viewer. MX wants to help users solve problems. MX Tools provide GUI utilities that fix system issues that normally involve manually editing configuration files with a text editor. MX provides a comprehensive manual to guide its users to solutions of common issues that arise as you run a Linux distro as your main operating system. Community package maintainers and testers ensure newer packages of the software you love on top of a Debian Stable base. Besides all of the goodness that MX bakes into their distro release, their active forum is filled with even more nuggets of tips and tricks.
 

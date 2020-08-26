@@ -1,10 +1,13 @@
-baseURL = "https://mowestusa.github.io/"
+baseURL = "https://discoverfoss.com/"
 languageCode = "en-us"
 copyright = "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
 title = "Discover FOSS"
 theme = "notepadium"
 publishDir = "/home/mowest/gitprojects/mowestusa.github.io/"
 enableRobotsTXT = true
+
+[author]
+name = "Steve (mowest)"
 
 [markup.highlight]
 codeFences = true
@@ -30,7 +33,7 @@ showTags = true
 
 [params.profile]
     enable = true
-    avatar = "/myAvatar.png"
+    avatar = "/img/myAvatar.png"
     name = "Steve (mowest)"
     bio = "A free and open source enthusiast using these tools for work and fun."
     github = "mowestusa"

@@ -9,7 +9,7 @@ tags:
 - fluxbox
 ---
 
-![MX-Fluxbox Pseudo Tiling Header Graphic](/mxfb-pseudo-header.png)
+![MX-Fluxbox Pseudo Tiling Header Graphic](/img/mxfb-pseudo-header.png)
 
 Eventually the experienced FOSS user will discover tiling window managers. Similar to fluxbox, tiling window managers are light weight on resources, but they might need additional customization to enable features that come turned on automatically in desktop environments like [Gnome](https://www.gnome.org/), [Plasma](https://kde.org/plasma-desktop), [Mate](https://mate-desktop.org/), and [XFCE](https://www.xfce.org/). Tiling window managers include FOSS like [Awesome](https://awesomewm.org/), [Xmonad](https://xmonad.org/), [i3](https://i3wm.org/), and [herbstluftwm](https://herbstluftwm.org/) just to name a few. Tiling window managers use keyboard shortcuts to quickly arrange your program windows into tiled layouts to make the most of your screen real estate. Fluxbox is considered a floating window manager. This means that your program windows will not rearrange as you open new programs to fill up the space on your screen, but instead new program windows layer on top of one another concealing portions of the program window below it.
 
