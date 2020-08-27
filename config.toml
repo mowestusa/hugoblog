@@ -15,7 +15,7 @@ noClasses = false
 
 [params]
 style = "auto"
-logo = "/img/discover-100.png"
+logo = "/img/discover-100px.png"
 slogan = "Discover Free and Open Source Software"
 
 [params.syntax]
