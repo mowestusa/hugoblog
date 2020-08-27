@@ -13,9 +13,9 @@ name = "Steve (mowest)"
 codeFences = true
 noClasses = false
 
-
 [params]
 style = "auto"
+logo = "/img/discover-100.png"
 slogan = "Discover Free and Open Source Software"
 
 [params.syntax]
@@ -26,6 +26,10 @@ darkTheme = "xcode-dark"
 [params.nav]
 showCategories = true
 showTags = true
+
+[[params.nav.custom]]
+title = "RSS"
+url = "/index.xml"
 
 # [params.nav.custom]
 # title = "About"
