@@ -35,7 +35,8 @@ Filled with excitement over my submission, I contemplated the next four articles
 
 I recently visited the [Hugo's discourse forum](https://discourse.gohugo.io/), and I noticed their greeting text for the new user. I wish I had read this honest and true piece of advice earlier.
 
-> ###Some Knowledge Required
+> **Some Knowledge Required**
+
 > Dare we say that while Hugo is indeed pretty magical, it is not meant to be a “magic wand” to suddenly give you a published website a la Square Space or Wordpress. You are expected to already know how to assemble a static web page, for which you do need some basic knowledge of HTML, CSS, command line and text editors. Or how to prepare a space to host your website. The bottom line is, if you are unwilling to invest the time required to learn these things, then Hugo is not for you.
 
 That paragraph might have sent me back to resurrect my blog on [Wordpress.com](wordpress.com) if I had read it before I got my first static site to build. In my simplicity, I thought that using an SSG would be an easy command line version of Wordpress, [WIX](https://www.wix.com/), or [Squarespace](https://www.squarespace.com/). I feel at home in the Linux terminal and using text editors. SSG's speak the language of front end website developers. They use terms that make my head swim like: HTML templates, CSS properties, TOML, YAML, JSON, front mater, taxonomies, and SEO. If I had experience as a website programmer or designer, I believe that my learning curve in using an SSG would have been smooth instead of a sharp climb up a rock face.
