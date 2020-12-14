@@ -9,7 +9,7 @@ tags:
 - hardware
 ---
 
-[Picture of Workstation](/img/newworkstation.jpg)
+![Picture of Workstation](/img/newworkstation.jpg)
 
 I recycle computers into Linux boxes. Either I repurpose old hardware that I have purchased or I give a second life to computers that others plan to get ride of. Recently I assembled a new workstation to replace the spare computer that I use at work when I'm at my standing desk.
 
