@@ -1,7 +1,7 @@
 ---
 title: "Recycled Workstation Build"
 date: 2020-12-06T22:18:27-05:00
-draft: true
+draft: false
 categories:
 - Articles
 tags:
