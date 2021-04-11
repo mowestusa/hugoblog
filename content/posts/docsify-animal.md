@@ -12,7 +12,7 @@ tags:
 
 ![Docsify Icon on a Spotted Cow](/img/docsify-animal.png)
 
-I thought I would break the silence on this [Hugo Powered](https://gohugo.io) blog with a post about another SSG [Static Site Generator](https://jamstack.org/generators). [Docsify](https://docsify.js.org) is a SSG that is truly a different kind of animal. To illustrate the difference, let me start by mapping my current workflow to make a post using Hugo as my SSG.
+I thought I would break the silence on this [Hugo powered](https://gohugo.io) blog with a post about another SSG [Static Site Generator](https://jamstack.org/generators). [Docsify](https://docsify.js.org) is a SSG that is truly a different kind of animal. To illustrate the difference, let me start by mapping my current workflow to make a post using Hugo as my SSG.
 
 1. Make sure I have the latest version of Hugo on my local machine. Admittedly, because it is written in Golang and comes as a single binary this is pretty easy. On my Debian workstations, I download the released deb package and install using the simple command replacing the deb package name with the latest released version of Hugo.
 
