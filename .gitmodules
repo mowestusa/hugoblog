@@ -1,6 +1,3 @@
-[submodule "themes/lekh"]
-	path = themes/lekh
-	url = git@github.com:invinciblycool/lekh.git
 [submodule "themes/notepadium"]
 	path = themes/notepadium
 	url = https://github.com/cntrump/hugo-notepadium.git
