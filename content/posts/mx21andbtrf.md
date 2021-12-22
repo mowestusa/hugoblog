@@ -18,7 +18,7 @@ tags:
 
 MX-21 was officially released on October 21, 2021 in its XFCE, KDE, and Fluxbox editions with the standard Debian 11 kernel. MX Linux has been a joy to use since my first install that you can read about in [MX Fluxbox Puts a Shine on Old Code](https://discoverfoss.com/posts/mxfb-shine/). Now with two of my computers running MX Linux Fluxbox Edition, I definitely planned to upgrade. I had done some testing while MX-21 Fluxbox was in beta, but I didn't know how I would handle upgrading my MX Linux desktop that had a btrfs RAID1 array. After unproductive Internet searches and a MX forum post that received the chirps of crickets, I figured I would need to come up with my own solution. Yes, I had a backup of the data on the btrfs RAID1 array, but this was my home folder. I wanted to avoid the pain of restoring the data to my `/home` folder when I move from one version of MX Linux to the next.
 
-As he often does, Dolphin Oracle, one of the main devs, released a [video](https://www.youtube.com/watch?v=Y_Xz4GJO9Bo) showcasing the new custom partition editor in the MX-21 installer. He does this by creating a btrfs partition and sub volumes for the root partition that enables you to use [Timeshift](https://teejeetech.com/timeshift/) which makes use of the snapshot features of btrfs to both create and restore system snapshots. Once I saw that video, I wanted all of my drives with btrfs. I was already taking advantage of having a btrfs RAID1 array to help preserve my data from bit rot. Now on my system drive I could take advantage of snapshots, another great feature of btrfs.
+As he often does, Dolphin Oracle, one of the main devs, released a [video](https://youtu.be/Rq06PCvJLt0) showcasing the new custom partition editor in the MX-21 installer. He does this by creating a btrfs partition and sub volumes for the root partition that enables you to use [Timeshift](https://teejeetech.com/timeshift/) which makes use of the snapshot features of btrfs to both create and restore system snapshots. Once I saw that video, I wanted all of my drives with btrfs. I was already taking advantage of having a btrfs RAID1 array to help preserve my data from bit rot. Now on my system drive I could take advantage of snapshots, another great feature of btrfs.
 
 This video and the overwhelming sound of crickets on my MX Forum post still left me wondering if I could safely use the installer with its custom partition editor to reconnect to my btrfs RAID1 pool as my `/home` folder.
 
@@ -72,8 +72,8 @@ I would encourage you to watch Dolphin Oracle's video that I referenced above. I
 
 I'm hoping that the search engines will find this article and provide it as a resource to others who would like to do a clean install of their system, but would also like to preserve their `/home` folder that rests on top of a btrfs RAID1 array.
 
-The original pictures used in the header graphic for this article are the following:
+*The original pictures used in the header graphic for this article are the following:
 
 - "Butter and sugar melt together" by jessicafm on [Flickr](https://flickr.com/photos/jessicafm) is licensed with CC BY 2.0. [A Copy of this License](https://creativecommons.org/licenses/by/2.0/)
 - [MX Logo](https://mxlinux.org/art/)
-- [Btrfs Logo](https://btrfs.wiki.kernel.org/index.php/Main_Page)
+- [Btrfs Logo](https://btrfs.wiki.kernel.org/index.php/Main_Page)*
