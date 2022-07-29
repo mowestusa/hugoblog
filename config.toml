@@ -14,7 +14,7 @@ codeFences = true
 noClasses = false
 
 [params]
-style = "auto"
+style = "dark"
 logo = "/img/discover-100px.png"
 slogan = "Discover Free and Open Source Software"
 
